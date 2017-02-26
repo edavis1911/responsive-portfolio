@@ -251,15 +251,16 @@ input[type=submit] {
 @media screen and (max-width: 980px){
 
   #logo{
-    margin-left: 40px;
+    margin-left: 65px;
   }  
 
   .main-section{
-    margin: 0 0 40px 40px;
+    margin: 0 0 40px 65px;
     width:40%;
     overflow: auto;
   }
 
+/*Adjust about me img so it grows and gives some space for underneath text*/
   .auth-image{
     width: 320px;
     margin-bottom: 20px;
