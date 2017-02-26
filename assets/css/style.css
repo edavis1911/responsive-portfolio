@@ -245,7 +245,7 @@ input[type=submit] {
   border: 0 none;
 }
 
-/*Media Queries go below here*/
+/*Media Queries*/
 
 /*Screen settings when screen size is 769px-980px*/
 @media screen and (max-width: 980px){
@@ -258,12 +258,20 @@ input[type=submit] {
     margin: 0 0 40px 40px;
     width:40%;
     overflow: auto;
-  }   
+  }
 
+  .auth-image{
+    width: 320px;
+    margin-bottom: 20px;
+  } 
+
+
+/*Adjust size of portfolio images*/
   .work{
     width: 325px;
   }
 
+/*Adjust sidebar when screen is 980px*/
   .sidebar{
     float: left;
     margin-left: 30px;
@@ -271,7 +279,7 @@ input[type=submit] {
 
 }
 /*Screen settings when screen size is 641px-768px*/
-@media screen and (max-width: 768px){
+/*@media screen and (max-width: 768px){
 
   #logo{
     margin-left: 40px;
@@ -281,10 +289,12 @@ input[type=submit] {
     margin: 0 0 40px 40px;
     width:40%;
   }   
+  
 
+  
   .sidebar{
     float: left;
     margin-left: 30px;
-  }
+  }*/
 
 }
