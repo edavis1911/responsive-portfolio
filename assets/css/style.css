@@ -245,32 +245,22 @@ input[type=submit] {
   border: 0 none;
 }
 
-/*Media Queries*/
+/*Media Queries go below here*/
 
 @media screen and (max-width: 980px){
-  header{
-    position: fixed;
-     }
+
+  #logo{
+    margin-left: 40px;
+  }  
 
   .main-section{
+    margin: 0 0 40px 40px;
     width:50%;
   }   
 
   .sidebar{
     float: left;
-    margin-left: 0px;
+    margin-left: 30px;
   }
 
-}
-  
-}
-
-@media screen and (max-width: 768px){
- {
-  
-}
-
-@media screen and (max-width: 640px){
-{
-  
 }
