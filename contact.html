@@ -1,57 +1,66 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-us">
+
 <head>
-	<link rel = "stylesheet" href = "assets/css/reset.css" />
-	<link rel = "stylesheet" href = "assets/css/style.css" />
-		<title>Portfolio of Ernest C. Davis </title>
+  <meta charset="UTF-8">
+  <title>Contact | Ernest C. Davis</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-	<header>
-		<h1>Ernest Davis</h1>
-			<nav>
-			<ul class="nav">
-				<li><a href="index.html">About </a> </li>
-				<li><a href="Portfolio.html">Portfolio </a> </li>
-				<li><a href="contact.html">Contact </a></li>
-			</ul>
-		</nav>		
-	</header>
 
-<div class="wrapper">
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Ernest C. Davis</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-	<div id="leftcolumn" >
-		<h2>Contact</h2>
-		<hr>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
 
-		<form >
-First name:  <input type="text" name="first_name" />
-<br>
-Last name:  <input type="text" name="last_name" />
-</form>
-	</div>
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
 
-	<div id="rightcolumn" >
-		<h3> Connect with Me </h3>
-		<hr>
-			<form action="text" placeholder="John Smith">Name</form>
-			<form action="text" placeholder="example@gmail.com">Email</form>
-			<form action="text">Message</form>
-		</ul>
-	  </div>	
-	</div>
-</div>
+    </section>
 
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
 
+        <a href="https://github.com/edavis1911"><img src="assets/images/github-128.png" class="social" alt="GitHub image. Select this to be taken to my GitHub page." /></a>
+        <a href="https://www.linkedin.com/in/edavisprofessional/"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn image.  Select this to be taken to my LinkedIn page."/></a>
+        <a href="http://stackoverflow.com/users/7455466/e-davis"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow image." /></a>
+      </div>
+    </section>
+  </div>
 
-<footer = class="footer">
-
-<div class="vertical-line"></div>
-
-<p>&#x24B8; Copyright 2017 Ernest Davis</p>
-
-</footer>
-</div>
+  <footer>
+    <div class="container">
+      Copyright &copy; 2017 Ernest C. Davis
+    </div>
+  </footer>
 </body>
 
 </html>
