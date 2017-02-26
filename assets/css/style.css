@@ -255,7 +255,7 @@ input[type=submit] {
   } 
 
 nav{
-  margin-right: 180px;
+  margin-right: 205px;
 }
 
   .main-section{
@@ -264,9 +264,9 @@ nav{
     overflow: auto;
   }
 
-/*Adjust about me img so it grows and gives some space for underneath text*/
+/*Adjust About Me img so it grows and gives some space for underneath text*/
   .auth-image{
-    width: 320px;
+    width: 290px;
     margin-bottom: 20px;
   } 
 
