@@ -247,6 +247,7 @@ input[type=submit] {
 
 /*Media Queries go below here*/
 
+/*Screen settings when screen size is 769px-980px*/
 @media screen and (max-width: 980px){
 
   #logo{
@@ -255,7 +256,30 @@ input[type=submit] {
 
   .main-section{
     margin: 0 0 40px 40px;
-    width:50%;
+    width:40%;
+    overflow: auto;
+  }   
+
+  .work{
+    width: 325px;
+  }
+
+  .sidebar{
+    float: left;
+    margin-left: 30px;
+  }
+
+}
+/*Screen settings when screen size is 641px-768px*/
+@media screen and (max-width: 768px){
+
+  #logo{
+    margin-left: 40px;
+  }  
+
+  #main-container{
+    margin: 0 0 40px 40px;
+    width:40%;
   }   
 
   .sidebar{
