@@ -247,7 +247,63 @@ input[type=submit] {
 
 /*Media Queries*/
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 640px){
+
+#main-container {
+  padding-top: 10px;
+}
+
+
+#masthead{
+  position: static;
+}
+
+ #logo{
+  width: 100%;
+  padding-left: 90px;
+  text-align: center;
+ }
+ nav{
+  float: left;
+  text-align: center;
+  margin-left: 60px;
+  margin-bottom: 20px;
+ }
+
+  a{
+  padding-right: 100px;
+}
+
+  .main-section,
+  .sidebar{
+  /*  margin: 0 0 40px 65px;*/
+    overflow: auto;
+    width: 100%;
+    max-width: 650px;
+    
+    }
+
+.sidebar a{
+  margin: 0;
+
+}
+
+.sidebar img{
+  margin: 0;
+ }
+
+.social{
+  margin-right: 0;
+}
+ 
+ .auth-image{
+    width: 578px;
+    margin-bottom: 20px;
+  } 
+
+}
+
+@media screen and (min-width:641px) and (max-width: 768px){
  
   #logo{margin-left: 65px;} 
 
@@ -257,10 +313,9 @@ input[type=submit] {
     overflow: auto;
     width: 100%;
     max-width: 650px;
-    
-    }
+  }
 
-    .sidebar{
+   .sidebar{
       float: left;
       margin-left:  
     }
