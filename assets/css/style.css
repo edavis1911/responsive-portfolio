@@ -251,19 +251,14 @@ input[type=submit] {
  
   #logo{margin-left: 65px;} 
 
-/*.container{width: 100%;}*/
-
-/*#main-container{width: 50%;}*/
-/*
-*/.main-section,
+.main-section,
   .sidebar{
     margin: 0 0 40px 65px;
     overflow: auto;
     width: 100%;
     max-width: 650px;
     
-    /*width:40%;
-    overflow: auto;*/}
+    }
 
     .sidebar{
       float: left;
