@@ -247,59 +247,71 @@ input[type=submit] {
 
 /*Media Queries*/
 
-/*Screen settings when screen size is 769px-980px*/
-@media screen and (max-width: 980px){
+@media screen and (max-width: 768px){
+ 
+  #logo{margin-left: 65px;} 
 
-  #logo{
-    margin-left: 65px;
-  } 
+/*.container{width: 100%;}*/
 
-nav{
-  margin-right: 205px;
+/*#main-container{width: 50%;}*/
+/*
+*/.main-section,
+  .sidebar{
+    margin: 0 0 40px 65px;
+    overflow: auto;
+    width: 100%;
+    max-width: 650px;
+    
+    /*width:40%;
+    overflow: auto;*/}
+
+    .sidebar{
+      float: left;
+      margin-left:  
+    }
+
+nav {
+    position: absolute;
+    margin-left: 50%;
+    width: 100%;
+  }
+
+ .auth-image{
+    width: 320px;
+    margin-bottom: 20px;} 
+
+
 }
+
+/*Screen settings when screen size is 769px-980px*/
+@media screen and (min-width: 769px) and (max-width: 980px){
+
+  #logo{margin-left: 65px;} 
+
+nav{margin-right: 205px;}
 
   .main-section{
     margin: 0 0 40px 65px;
     width:40%;
-    overflow: auto;
-  }
+    overflow: auto;}
 
 /*Adjust About Me img so it grows and gives some space for underneath text*/
   .auth-image{
     width: 320px;
-    margin-bottom: 20px;
-  } 
+    margin-bottom: 20px;} 
 
 
 /*Adjust size of portfolio images*/
   .work{
-    width: 325px;
-  }
+    width: 325px;}
 
 /*Adjust sidebar when screen is 980px*/
   .sidebar{
     float: left;
-    margin-left: 30px;
-  }
-
+    margin-left: 30px;}
 }
 /*Screen settings when screen size is 641px-768px*/
-/*@media screen and (max-width: 768px){
-
-  #logo{
-    margin-left: 40px;
-  }  
-
-  #main-container{
-    margin: 0 0 40px 40px;
-    width:40%;
-  }   
-  
 
   
-  .sidebar{
-    float: left;
-    margin-left: 30px;
-  }*/
+  
 
-}
